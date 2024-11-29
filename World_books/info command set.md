@@ -55,7 +55,8 @@ python -m pip install -r requirements.txt
 Basic Django Commands
 ```sh
 pip install django==4.2 -> installing django package version
-python manage.py runserverdjango-admin startproject "name project" ->  creating a new project
+python manage.py runserver
+django-admin startproject "name project" ->  creating a new project
  -> starting django server, Quit the server with CTRL-BREAK
 python manage.py migrate -> runs migrations on the database
 ```

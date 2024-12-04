@@ -22,11 +22,7 @@ def index(request):
                                          #'num_visits': num_visits
                                          }) 
 
-from django.views import generic 
- 
- 
-class BookListView(generic.ListView): 
-    model = Book 
- 
-
+from django.views import generic
+class BookListView(generic.ListView):
+    model = Book
 
